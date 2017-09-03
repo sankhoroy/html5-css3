@@ -1,0 +1,26 @@
+/***************************************************************************************************
+This CSS controls stylesheet for careers.html and  its form and inputs
+************************************************************************************************/
+h3,p,form,textarea{
+	text-align: left;
+}
+p{
+	color: grey;
+}
+form ul{
+	height: 100px;
+}
+form ul li {
+	height: 82px;
+	padding-left: 30px;
+	background-color: white;
+	display: block;
+	list-style: none; 
+	margin-bottom: 30px;
+	width: 610px;
+}
+textarea{
+	width: 668px;
+	height: 111px;
+	font-family: courier;
+}

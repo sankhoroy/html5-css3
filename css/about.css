@@ -1,0 +1,20 @@
+/*************************************************************************
+This CSS file is for controlling stylesheets of about.html
+*************************************************************************/
+/* controls coloured highlight in text */ 
+.effect{
+	color: #ff3374;
+}
+/* Padding to valign navigation bar items at centre */
+.list{
+	padding-top: 0px !important; 
+}
+/* CSS element for parallax activity */
+.parallax1{
+    background-image: url("../img/bg.jpg");
+    min-height: 400px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,71 @@
+/******************************************************************************************************************
+This CSS controls stylesheet of product.html and responsible for multicolor sections and highlights in the webpage.
+It is also responsible for Header and Navigation Bar.
+*******************************************************************************************************************/
+/* body */
+body{
+	text-align: center;
+	margin: auto;
+}
+/* navigation bar */
+nav{
+	height: 50px;
+	width: 100%;
+}
+/* Unordered List items */
+ul{
+	height: 30px;
+	width: 100%;
+	padding:0;
+	margin:0;
+}
+/* Unordered list  anchor tags */
+ul a{
+	display: inline;
+	color: #574148;
+	text-decoration: none;
+	height: 50px;
+	font-size: 23px;
+}
+/* Unordered list  anchor tags hovering  activity */
+ul a:hover{
+	color:black;
+	text-decoration: none;
+	font-size: 23px;
+	height: 50px;
+}
+/* Unordered list items */ 
+ul li{
+	font-size:24px;
+	display: inline;
+	text-decoration: none;
+	background-color: #ff3374;
+	height: 50px;
+}
+/* Grid 4  controls each sections stylesheet */
+.grid_4{
+	margin-top:5px;
+	font-size: 12px;
+}
+/* Container class  */
+.container{
+	text-align: left;
+	color: grey;
+	font-size: 16px;
+}
+/* Highlight1 to highlight5 controls stylesheet for multicolor span elements in paragraph */
+.highlight1{
+	color:#ff3374;
+}
+.highlight2{
+	color: #72bf00;
+}
+.highlight3{
+	color: #d66706;
+}
+.highlight4{
+	color: #d6c91b;
+}
+.highlight5{
+	color: #007bff;
+}
